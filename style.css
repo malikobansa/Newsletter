@@ -1,0 +1,68 @@
+body{
+    background: hsl(234, 29%, 20%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.grid{
+    display: flex;
+    background: #fff;
+    width: 1000px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    border-radius: 20px;
+}
+
+.grid-img{
+    display: flex;
+
+}
+
+.img{
+    width: 20px;
+    height: 20px;
+}
+
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#subscribed{
+    display: none;
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    border-radius: 20px;
+    z-index: 9;
+    display: flex;
+}
+
+.grids{
+    margin-bottom: 50px;
+    margin-left: -40px;
+}
+
+#Btn{
+    background: hsl(234, 29%, 20%);
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 20px;
+    color: #fff;
+    width: 400px;
+}
+
+#email{
+    background: #fff;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px 20px;
+    color: #fff;
+    width: 355px;
+}
+
